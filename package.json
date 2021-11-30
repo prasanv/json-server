@@ -1,0 +1,16 @@
+{
+  "name": "json-server-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-json": "json-server -w database.json data.js -p 9000 -r routes.json",
+    "serve-random-json": "json-server -w data.js -p 8000"
+  },
+  "author": "prasanv",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
